@@ -24,5 +24,6 @@ end
 
 def printer(speakers)
   badge_messages = batch_badge_creator(speakers)
-  badge_messages.each do ||
+  badge_messages.each do |message|
+    
 end  
