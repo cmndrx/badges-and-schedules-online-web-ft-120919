@@ -13,6 +13,6 @@ def batch_badge_creator(speakers)
 end  
 
 def assign_rooms
-  room =
+  room = 1
   room_messages = 
 end  
