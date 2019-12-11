@@ -28,5 +28,6 @@ def printer(speakers)
   puts message
   end
   
-  room_messages = assign_rooms
+  room_messages = assign_rooms(speakers)
+  
 end  
