@@ -15,5 +15,5 @@ end
 def assign_rooms
   room = 1
   room_messages = []
-  speakers
+  speakers.each do 
 end  
