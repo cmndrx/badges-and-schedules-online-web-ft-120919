@@ -14,5 +14,5 @@ end
 
 def assign_rooms
   room =
-  
+  room_messages = 
 end  
