@@ -23,5 +23,5 @@ end
 end  
 
 def printer(speakers)
-  
+  badge_messages = b
 end  
