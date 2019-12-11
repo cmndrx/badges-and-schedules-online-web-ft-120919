@@ -22,6 +22,6 @@ end
   room_messages
 end  
 
-def printer
+def printer(speakers)
   
 end  
