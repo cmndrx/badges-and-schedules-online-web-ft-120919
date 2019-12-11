@@ -22,3 +22,6 @@ end
   room_messages
 end  
 
+def printer
+  
+end  
