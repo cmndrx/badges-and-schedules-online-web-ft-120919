@@ -6,7 +6,7 @@ def batch_badge_creator(speakers)
   badge_messages = []
   speakers.each do |speaker|
   message = badge_maker(speaker)
-  badge_messages << message
+  badge_messages.push message
   end
   
   badge_messages
@@ -16,7 +16,7 @@ def assign_rooms(speakers)
   room = 1
   room_messages = []
   speakers.each do |speaker|
-  room_messages << "Hello, #{speaker}! You'll be assigned to room #{room}!"  
+  room_messages.push "Hello, #{speaker}! You'll be assigned to room #{room}!"  
   room += 1
 end
   room_messages
